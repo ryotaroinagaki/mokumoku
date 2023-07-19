@@ -48,7 +48,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara', '~> 3.23'
   gem 'selenium-webdriver', '4.9.0'
-  gem 'nokogiri', '1.12.5'
+  gem 'webdrivers'
 end
 
 group :development do

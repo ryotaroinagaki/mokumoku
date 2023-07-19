@@ -3,7 +3,7 @@
 class User < ApplicationRecord
   authenticates_with_sorcery!
 
-  enum gender: %i(other male female)
+  enum gender: %i(other man woman)
 
   has_many :events, dependent: :destroy
   has_many :event_attendances, dependent: :destroy
