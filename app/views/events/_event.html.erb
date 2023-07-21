@@ -9,7 +9,7 @@
       </h4>
       <div class="d-flex justify-content-between" style="height: 20px;">
         <p class="card-text"><%= event.content %></p>
-        <% if event.only_woman %>
+        <% if event.only_woman? %>
           <p>女性限定</p>
         <% end %>
       </div>
