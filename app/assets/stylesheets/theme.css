@@ -3385,6 +3385,11 @@ progress {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 .form-check_box{
+  position: relative;
+  padding-left: 25px; /* チェックボックスの横のスペースを確保 */
+  cursor: pointer;
+  height: 20px; /* チェックボックスの高さ */
+  width: 20px;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
